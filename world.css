@@ -1,1 +1,65 @@
-/* Add your own styles */
+header{
+    display: flex;
+    justify-content: center;
+    padding: 50px 60px 20px 60px;
+    color: white;
+    background-color: rgb(164, 203, 233);
+    font-family:cursive;
+}
+
+img{
+    border-radius: 80%;
+    width: 120px;
+    height: 100px;
+}
+
+body {
+    background-color: rgb(181, 179, 169);
+    margin: 0px;
+}
+#lookup{
+    background-color: brown;
+    padding: 0px 30px 0px;
+}
+
+#lookupC{
+    background-color: brown;
+}
+
+table tr
+{
+    background-color: #f2f2f2;
+}
+
+table th {
+  background-color: gray;
+  color: white;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 50px 30px;
+  }
+  
+  table td {
+    border: 3px solid #ddd;
+    padding: 8px;
+  }
+
+#controls{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;;
+}
+input{
+    width: 600px;
+    padding: 12px;
+}
+div.btn{
+    /* padding-left: 120px;  */
+    display: flex;
+    justify-content: space-evenly;
+}
